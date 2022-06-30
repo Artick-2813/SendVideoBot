@@ -1,0 +1,8 @@
+/config.py
+/.idea
+/settings.db
+/dist
+/build
+/icon.ico
+/bot.spec
+**__pycache__

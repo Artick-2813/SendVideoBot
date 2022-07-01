@@ -6,7 +6,7 @@ DEFAULT_SETTINGS = [
     }
 ]
 
-PATH_DATABASE = r'C:\Users\Admin\PycharmProjects\SendPhotoBot\DBase\settings.db'
+PATH_DATABASE = r'C:\Users\Admin\PycharmProjects\SendVideoBot\DBase\settings.db'
 
 
 def connect():
@@ -71,5 +71,3 @@ def remove_show_info_video():
 
     cursor.execute(""" DELETE FROM settings WHERE show_info_video="Выкл." OR show_info_video="Вкл." """)
     connection.commit()
-
-

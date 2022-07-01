@@ -1,7 +1,7 @@
 from aiogram import types, Dispatcher
 from create_bot import bot
 from HandlersKeyboardBot.Keyboard import menu_markup
-from DBase.Dbase import create_database, add_default_settings, select_show_info_video
+from DBase.Dbase import create_database
 
 
 async def start(msg: types.Message):

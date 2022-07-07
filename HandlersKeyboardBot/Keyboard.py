@@ -13,8 +13,13 @@ def menu_markup():
 
 def menu_settings():
     btn_show_info_video = KeyboardButton('Показывать информацию о видео 📝')
+    btn_save_chat_id = KeyboardButton('Сохранение chat id ☑')
     btn_back = KeyboardButton('Назад 🔙')
-    settings_keyboard = ReplyKeyboardMarkup(resize_keyboard=True).add(btn_show_info_video, btn_back)
+    settings_keyboard = ReplyKeyboardMarkup(resize_keyboard=True, row_width=2).add(
+        btn_show_info_video,
+        btn_save_chat_id,
+        btn_back
+    )
 
     return settings_keyboard
 
